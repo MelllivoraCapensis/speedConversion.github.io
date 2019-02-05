@@ -13,6 +13,11 @@ body {
 
 	border: 2px solid black;
 }
+.container h2 {
+	margin: 0;
+	
+	text-align: center;
+}
 .inputs {
 	display: flex;
 	justify-content: justify;
