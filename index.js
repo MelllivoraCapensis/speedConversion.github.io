@@ -25,3 +25,6 @@ changeButton.addEventListener('click', function() {
   resultLabel.innerHTML = label;
   flag = !flag;
 });
+startValue.addEventListener('focus', function() {
+	this.style.backgroundColor = 'transparent';
+})
