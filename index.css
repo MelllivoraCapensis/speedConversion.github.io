@@ -10,22 +10,19 @@ body {
     max-width: 500px;
     width: 80%;
 	margin: 40px auto;
-
 	border: 2px solid black;
 }
 .container h2 {
 	margin: 0;
-	
 	text-align: center;
 }
 .inputs {
 	display: flex;
-	justify-content: justify;
+	align-items: stretch;
 }
 .inputs input {
 	flex-grow: 1;
 	min-width: 100px;
-	height: 25px;
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	border: 2px solid black;
@@ -38,6 +35,7 @@ body {
 	text-align: center;
 }
 #convertButton {
+	box-sizing: border-box;
 	background: black;
 	color: white;
 	font-family:  'Oswald', sans-serif;
