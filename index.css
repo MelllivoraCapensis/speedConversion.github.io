@@ -1,0 +1,52 @@
+body {
+	font-family:  'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+    min-width: 300px;
+    max-width: 500px;
+    width: 80%;
+	margin: 40px auto;
+
+	border: 2px solid black;
+}
+.inputs {
+	display: flex;
+	justify-content: justify;
+}
+.inputs input {
+	flex-grow: 1;
+	min-width: 100px;
+	height: 25px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	border: 2px solid black;
+}
+.labels {
+	display: flex;
+}
+.labels>* {
+	width: 33%;
+	text-align: center;
+}
+#convertButton {
+	background: black;
+	color: white;
+	font-family:  'Oswald', sans-serif;
+	font-size: 18px;
+    border: 2px solid black;
+}
+#convertButton:hover {
+	background: lightgray;
+	color: black;
+}
+#changeButton {
+	background: none;
+	border: none;
+	font-family:  'Oswald', sans-serif;
+	text-decoration: underline dashed green;
+	cursor: pointer;
+}
